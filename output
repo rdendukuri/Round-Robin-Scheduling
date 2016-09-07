@@ -1,0 +1,307 @@
+Script started on Fri 09 Oct 2015 11:47:08 AM CDT
+]0;z1749863@hopper: ~/580/Assign_4z1749863@hopper:~/580/Assign_4$ ./Assign4 data.ttxt[K[K[Kxt
+
+Process pushed to Ready Queue: 101
+
+
+Process pushed to Ready Queue: 102
+
+
+Process pushed to Ready Queue: 103
+
+
+Process pushed to Ready Queue: 104
+
+
+Process pushed to Ready Queue: 105
+
+
+Process pushed to Ready Queue: 106
+
+
+Time stamp now :0
+The PID of the Active process: 101
+No IOActive process
+Ready Queue Contents-------
+process ID : 102
+process ID : 103
+process ID : 104
+process ID : 105
+process ID : 106
+IO Queue Contents-------
+Queue Empty
+
+
+Time stamp now :25
+The PID of the Active process: 102
+The PID of the IOActive process: 103
+Ready Queue Contents-------
+process ID : 106
+IO Queue Contents-------
+process ID : 104
+process ID : 105
+process ID : 101
+
+
+Time stamp now :50
+The PID of the Active process: 105
+The PID of the IOActive process: 101
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+process ID : 102
+process ID : 106
+process ID : 103
+process ID : 104
+
+
+Process : 102 Terminated
+----------
+Process Name : PROGRAMB
+Arrival Time :0
+Ended at:64
+CPU Bursts = 3
+CPU time =14
+IO Bursts =2
+IO Time = 17
+Waiting time =33
+Process pushed to Ready Queue107
+
+
+Process : 106 Terminated
+----------
+Process Name : THISPROG
+Arrival Time :0
+Ended at:72
+CPU Bursts = 2
+CPU time =9
+IO Bursts =1
+IO Time = 7
+Waiting time =56
+Process pushed to Ready Queue108
+
+
+Time stamp now :75
+The PID of the Active process: 108
+The PID of the IOActive process: 103
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+process ID : 104
+process ID : 105
+process ID : 101
+process ID : 107
+
+
+Time stamp now :100
+The PID of the Active process: 105
+The PID of the IOActive process: 101
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+process ID : 107
+process ID : 108
+process ID : 103
+process ID : 104
+
+
+Time stamp now :125
+The PID of the Active process: 103
+The PID of the IOActive process: 104
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+process ID : 105
+process ID : 101
+process ID : 107
+process ID : 108
+
+
+Process : 103 Terminated
+----------
+Process Name : PROGRAMC
+Arrival Time :0
+Ended at:128
+CPU Bursts = 4
+CPU time =23
+IO Bursts =3
+IO Time = 31
+Waiting time =74
+Process pushed to Ready Queue109
+
+
+Process : 109 Terminated
+----------
+Process Name : SHORTEST
+Arrival Time :128
+Ended at:130
+CPU Bursts = 1
+CPU time =2
+IO Bursts =0
+IO Time = 0
+Waiting time =0
+Process pushed to Ready Queue110
+
+
+Time stamp now :150
+The PID of the Active process: 101
+The PID of the IOActive process: 107
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+process ID : 108
+process ID : 110
+process ID : 104
+process ID : 105
+
+
+Time stamp now :175
+No Active process: The CPU is idle
+The PID of the IOActive process: 110
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+process ID : 104
+process ID : 105
+process ID : 101
+process ID : 107
+process ID : 108
+
+
+Process : 104 Terminated
+----------
+Process Name : LAMBCHOP
+Arrival Time :0
+Ended at:186
+CPU Bursts = 5
+CPU time =30
+IO Bursts =4
+IO Time = 28
+Waiting time =128
+Process pushed to Ready Queue111
+
+
+Process : 105 Terminated
+----------
+Process Name : BUFFYTVS
+Arrival Time :0
+Ended at:193
+CPU Bursts = 5
+CPU time =28
+IO Bursts =4
+IO Time = 35
+Waiting time =130
+Process pushed to Ready Queue112
+
+
+Time stamp now :200
+No Active process: The CPU is idle
+The PID of the IOActive process: 101
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+process ID : 107
+process ID : 108
+process ID : 110
+process ID : 111
+process ID : 112
+
+
+Process : 101 Terminated
+----------
+Process Name : PROGRAMA
+Arrival Time :0
+Ended at:204
+CPU Bursts = 5
+CPU time =24
+IO Bursts =4
+IO Time = 31
+Waiting time =149
+
+Process : 107 Terminated
+----------
+Process Name : YOURPROG
+Arrival Time :64
+Ended at:209
+CPU Bursts = 4
+CPU time =17
+IO Bursts =3
+IO Time = 24
+Waiting time =104
+
+Process : 108 Terminated
+----------
+Process Name : LOTSOFIO
+Arrival Time :72
+Ended at:218
+CPU Bursts = 4
+CPU time =8
+IO Bursts =3
+IO Time = 27
+Waiting time =111
+
+Time stamp now :225
+The PID of the Active process: 110
+The PID of the IOActive process: 111
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+process ID : 112
+
+
+Process : 112 Terminated
+----------
+Process Name : LITTLEIO
+Arrival Time :193
+Ended at:245
+CPU Bursts = 2
+CPU time =13
+IO Bursts =1
+IO Time = 6
+Waiting time =33
+
+Time stamp now :250
+The PID of the Active process: 110
+The PID of the IOActive process: 111
+Ready Queue Contents-------
+Queue Empty
+IO Queue Contents-------
+Queue Empty
+
+
+Process : 110 Terminated
+----------
+Process Name : HEADACHE
+Arrival Time :130
+Ended at:250
+CPU Bursts = 4
+CPU time =14
+IO Bursts =3
+IO Time = 23
+Waiting time =83
+
+Process : 111 Terminated
+----------
+Process Name : STARTREK
+Arrival Time :186
+Ended at:266
+CPU Bursts = 4
+CPU time =11
+IO Bursts =3
+IO Time = 23
+Waiting time =46
+
+The run has ended.
+The final value of the timer was:266
+The amount of time spent idle was:74
+Number of terminated processes =12
+Contents of the Entry Queue:
+Queue Empty
+Contents of the Ready Queue:
+Queue Empty
+Contents of the IO Queue:
+Queue Empty
+
+]0;z1749863@hopper: ~/580/Assign_4z1749863@hopper:~/580/Assign_4$ exit
+
+Script done on Fri 09 Oct 2015 11:47:22 AM CDT
